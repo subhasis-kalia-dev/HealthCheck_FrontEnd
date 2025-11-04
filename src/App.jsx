@@ -2,7 +2,7 @@ import { useState } from "react"
 import './App.css'
 
 // Backend URL based on your instructions
-const BACKEND_URL = "http://127.0.0.1:8000/analyze-image"; 
+const BACKEND_API_BASE_URL = "https://healthcheck-backend-g2hd.onrender.com";
 
 function App() {
   // State to hold the selected File object
