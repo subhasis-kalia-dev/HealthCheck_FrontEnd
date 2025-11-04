@@ -149,9 +149,19 @@ function App() {
             {!loading && !summary && !error && !fileError && (
               <p className="initial-state">Upload an image of a nutritional fact panel to get started.</p>
             )}
+
+            
           </div>
         </div>
+
+         <footer className="footerSection">
+        <p className="disclaimerText">
+          ⚠️ Disclaimer: Created using Google Vision API , Open AI, React and FastAPI
+        </p>
+        <p className="authorText">Author — <strong>Subhasis Kalia</strong></p>
+      </footer>
       </div>
+      
     </>
   )
 }
