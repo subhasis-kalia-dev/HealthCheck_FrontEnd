@@ -156,7 +156,7 @@ function App() {
 
          <footer className="footerSection">
         <p className="disclaimerText">
-          ⚠️ Disclaimer: Created using Google Vision API , Open AI, React and FastAPI
+             Created using Google Cloud Vision API , OpenAI LLM, React and FastAPI
         </p>
         <p className="authorText">Author — <strong>Subhasis Kalia</strong></p>
       </footer>
