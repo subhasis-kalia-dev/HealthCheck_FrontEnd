@@ -2,7 +2,7 @@ import { useState } from "react"
 import './App.css'
 
 // Backend URL based on your instructions
-const BACKEND_API_BASE_URL = "https://healthcheck-backend-g2hd.onrender.com";
+const BACKEND_URL = "https://healthcheck-backend-g2hd.onrender.com";
 
 function App() {
   // State to hold the selected File object
