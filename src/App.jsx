@@ -53,11 +53,11 @@ function App() {
 
       const data = await response.json();
 
-      if (data.llm_analysis_summary) {
-        setSummary(data.llm_analysis_summary);
-      } else {
-        setSummary('Analysis completed but no summary was generated.');
-      }
+     if (data.summary) {
+  setSummary(data.summary);
+} else {
+  setSummary('Analysis completed but no summary was generated.');
+}
       
     } catch (e) {
       console.error("API Fetch Error:", e);
