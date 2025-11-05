@@ -1,16 +1,52 @@
-# React + Vite
+# 🧠 NutriVision – AI-Powered Food Ingredient Analyzer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+### 🥗 Overview
+**NutriVision** is an AI-powered web application that analyzes food product ingredients from images and provides **health and nutritional insights**.  
+It combines the power of **Google Cloud Vision API** (for text extraction) and **OpenAI’s LLM** (for intelligent food analysis) to help users make informed and safer food choices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 **Live Project:** [https://ingredienthealthcheck.netlify.app](https://ingredienthealthcheck.netlify.app)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 📸 Upload or capture a food product label image  
+- 🔍 Extract ingredients automatically using **Google Cloud Vision API**  
+- 🤖 Analyze extracted ingredients with **OpenAI LLM** (food specialist role)  
+- ⚠️ Identify **harmful or allergenic ingredients** that may cause health issues  
+- 📊 Get clear and concise health insights  
+- 🌐 Deployed using **Netlify (frontend)** and **Render (backend, free tier)**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧩 Tech Stack
+
+| Layer | Technology |
+|:------|:------------|
+| Frontend | React, HTML5, CSS3, Bootstrap |
+| Backend | FastAPI |
+| AI & APIs | Google Cloud Vision API, OpenAI REST API |
+| Deployment | Netlify (Frontend), Render (Backend) |
+
+---
+
+## 🧠 How It Works
+
+1. **Image Upload** → User uploads a food label photo.  
+2. **Text Extraction** → Backend uses **Google Cloud Vision API** to read the ingredient list.  
+3. **AI Analysis** → Extracted text is sent to **OpenAI LLM**, which acts as a food specialist.  
+4. **Insight Generation** → AI returns detailed health insights and safety analysis.  
+5. **Display Results** → Frontend shows a clean, easy-to-read result to the user.
+
+---
+
+## 💡 Real-Life Use Cases
+
+- 🧴 Detect allergens or harmful additives (e.g., gluten, MSG, trans fats)  
+- ❤️ Help users with conditions like diabetes, hypertension, or food allergies  
+- 🧠 Educate consumers about nutrition and food safety  
+- 🛒 Empower smarter and healthier product choices  
+
+---
+
