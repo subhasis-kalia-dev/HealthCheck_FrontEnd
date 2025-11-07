@@ -157,7 +157,7 @@ function App() {
          <footer className="footerSection">
         <p className="disclaimerText">
              Created using Google Cloud Vision API , OpenAI LLM, React and FastAPI
-            Fetching data may be delayed because my backend API server is hosted on a free plan, which can take over a minute to start up. Once it’s running, it will respond normally.
+            @Fetching data may be delayed because my backend API server is hosted on a free plan, which can take over a minute to start up. Once it’s running, it will respond normally.
 
     
         </p>
